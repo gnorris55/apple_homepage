@@ -1,0 +1,1 @@
+project focassed on recreating the apple homepage using colour gradients, flex and background images
