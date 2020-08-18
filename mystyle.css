@@ -1,3 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif; }
 
+header {
+  position: relative;
+  padding-top: 15px; }
+  header .contents {
+    display: grid;
+    grid-template-columns: repeat(8, 100px) 150px;
+    justify-content: center; }
+    header .contents .item {
+      display: flex;
+      height: 40px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      border: grey solid 1px;
+      background-image: linear-gradient(#747474 50%, #616060 50%);
+      color: white; }
+      header .contents .item input {
+        width: 125px;
+        height: 15px;
+        border-radius: 7px;
+        border: none;
+        background-color: lightgrey; }
+      header .contents .item .apple-icon {
+        height: 25px;
+        width: 25px; }
+    header .contents .start {
+      border-radius: 7px 0 0 7px; }
+    header .contents .end {
+      border-radius: 0 7px 7px 0; }
+
+section img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -9999;
+  height: 750px;
+  width: 1450px; }
+section .writing {
+  margin-left: auto;
+  margin-right: auto;
+  width: 850px;
+  text-align: center;
+  margin-top: 100px;
+  color: white; }
+  section .writing h2 {
+    font-size: 45px; }
+  section .writing h3 {
+    font-size: 30px; }
+  section .writing a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white; }
+
+.two .contents {
+  margin-top: 250px;
+  display: flex; }
+  .two .contents .item {
+    background-color: lightcoral;
+    height: 50px;
+    width: 100px;
+    border: lightgray solid 1px; }
 
 /*# sourceMappingURL=mystyle.css.map */

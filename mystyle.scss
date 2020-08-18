@@ -1,0 +1,100 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+header
+{
+    position: relative;
+    padding-top: 15px;
+    .contents
+    {
+        display: grid;
+        grid-template-columns: repeat(8, 100px) 150px;
+        justify-content: center;
+
+        .item
+        {
+            display: flex;
+            height: 40px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            border: grey solid 1px;
+            background-image: linear-gradient(rgb(116, 116, 116) 50%,rgb(97, 96, 96) 50%);
+            color: white;
+            input
+            {
+                width: 125px;
+                height: 15px;
+                border-radius: 7px;
+                border: none;
+                background-color: lightgrey;
+            }
+            .apple-icon
+            {
+                height: 25px;
+                width: 25px;
+            }
+        }
+        .start
+        {
+            border-radius: 7px 0 0 7px;
+        }
+        .end
+        {
+            border-radius: 0 7px 7px 0;
+        }
+    }
+}
+
+section
+{
+    img
+    {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -9999;
+        height: 750px;
+        width: 1450px;
+    }
+    .writing
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 850px;
+        text-align: center;
+        margin-top: 100px;
+        color: white;
+        h2
+        {
+            font-size: 45px;
+        }
+        h3
+        {
+            font-size: 30px;
+        }
+        a
+        {
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+.two
+{
+    .contents
+    {
+        margin-top: 250px;
+        display: flex;
+        .item
+        {
+            background-color: lightcoral;
+            height: 50px;
+            width: 100px;
+            border: lightgray solid 1px;
+        }
+    }
+}
